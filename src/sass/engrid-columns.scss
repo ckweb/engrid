@@ -24,7 +24,7 @@
 // }
 
 /* Fix for flexbox sub-pixel rounding causing a 1px jitter in Chrome. */
-/* And because EN inserts a div at the end of rows in the page builder, we needed to use a more permiscuse scope. */
+/* And because EN inserts a div at the end of rows in the page builder, we needed to use a more promiscuous scope. */
 /* This fix has NOT been tested for regressions in other browsers */
 /* e.g https://d.pr/i/CRYKHa */
 body:not(#en__pagebuilder) .en__component--column:last-of-type,
