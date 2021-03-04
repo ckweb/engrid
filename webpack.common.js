@@ -4,7 +4,8 @@ const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: "./src/themes/" + process.env.npm_package_client + "/index.ts",
+    // main: "./src/themes/" + process.env.npm_package_client + "/index.ts",
+    main: "./src/themes/rfkhr/index.ts",
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin(),
